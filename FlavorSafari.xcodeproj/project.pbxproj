@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C75C101CA76B3710D381F45 /* Pods_FlavorSafari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B70868C9411CE353E55DA1 /* Pods_FlavorSafari.framework */; };
 		984ADF592A7A56860022638C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF582A7A56860022638C /* AppDelegate.swift */; };
 		984ADF5B2A7A56860022638C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF5A2A7A56860022638C /* SceneDelegate.swift */; };
-		984ADF5D2A7A56860022638C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF5C2A7A56860022638C /* ViewController.swift */; };
 		984ADF602A7A56860022638C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984ADF5E2A7A56860022638C /* Main.storyboard */; };
 		984ADF622A7A56870022638C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984ADF612A7A56870022638C /* Assets.xcassets */; };
 		984ADF652A7A56870022638C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984ADF632A7A56870022638C /* LaunchScreen.storyboard */; };
+		984ADF712A7A59A70022638C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF702A7A59A70022638C /* OnboardingViewController.swift */; };
+		984ADF742A7A5C700022638C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF732A7A5C700022638C /* UIView+Extension.swift */; };
+		984ADF782A7A5D890022638C /* OnboardingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF772A7A5D890022638C /* OnboardingSlides.swift */; };
+		984ADF7A2A7A61990022638C /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF792A7A61990022638C /* OnBoardingCollectionViewCell.swift */; };
+		984ADF7C2A7A97CD0022638C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF7B2A7A97CD0022638C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64410803FA26896D236DAE92 /* Pods-FlavorSafari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorSafari.release.xcconfig"; path = "Target Support Files/Pods-FlavorSafari/Pods-FlavorSafari.release.xcconfig"; sourceTree = "<group>"; };
+		9829371CD4278616265834F1 /* Pods-FlavorSafari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlavorSafari.debug.xcconfig"; path = "Target Support Files/Pods-FlavorSafari/Pods-FlavorSafari.debug.xcconfig"; sourceTree = "<group>"; };
 		984ADF552A7A56860022638C /* FlavorSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		984ADF582A7A56860022638C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		984ADF5A2A7A56860022638C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		984ADF5C2A7A56860022638C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		984ADF5F2A7A56860022638C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		984ADF612A7A56870022638C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		984ADF642A7A56870022638C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		984ADF662A7A56870022638C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984ADF702A7A59A70022638C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		984ADF732A7A5C700022638C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		984ADF772A7A5D890022638C /* OnboardingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlides.swift; sourceTree = "<group>"; };
+		984ADF792A7A61990022638C /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		984ADF7B2A7A97CD0022638C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4B70868C9411CE353E55DA1 /* Pods_FlavorSafari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlavorSafari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C75C101CA76B3710D381F45 /* Pods_FlavorSafari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				984ADF572A7A56860022638C /* FlavorSafari */,
 				984ADF562A7A56860022638C /* Products */,
+				98962FF9E9CBD0A0236B350C /* Pods */,
+				BD27290409C268A24E54CC3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,76 @@
 		984ADF572A7A56860022638C /* FlavorSafari */ = {
 			isa = PBXGroup;
 			children = (
+				984ADF722A7A5C4D0022638C /* Extensions */,
+				984ADF6E2A7A59520022638C /* CustomViews */,
+				984ADF6D2A7A59400022638C /* Views */,
+				984ADF6C2A7A59380022638C /* Models */,
 				984ADF582A7A56860022638C /* AppDelegate.swift */,
 				984ADF5A2A7A56860022638C /* SceneDelegate.swift */,
-				984ADF5C2A7A56860022638C /* ViewController.swift */,
 				984ADF5E2A7A56860022638C /* Main.storyboard */,
 				984ADF612A7A56870022638C /* Assets.xcassets */,
 				984ADF632A7A56870022638C /* LaunchScreen.storyboard */,
 				984ADF662A7A56870022638C /* Info.plist */,
 			);
 			path = FlavorSafari;
+			sourceTree = "<group>";
+		};
+		984ADF6C2A7A59380022638C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				984ADF772A7A5D890022638C /* OnboardingSlides.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		984ADF6D2A7A59400022638C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				984ADF6F2A7A59690022638C /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		984ADF6E2A7A59520022638C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		984ADF6F2A7A59690022638C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				984ADF702A7A59A70022638C /* OnboardingViewController.swift */,
+				984ADF792A7A61990022638C /* OnBoardingCollectionViewCell.swift */,
+				984ADF7B2A7A97CD0022638C /* HomeViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		984ADF722A7A5C4D0022638C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				984ADF732A7A5C700022638C /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		98962FF9E9CBD0A0236B350C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9829371CD4278616265834F1 /* Pods-FlavorSafari.debug.xcconfig */,
+				64410803FA26896D236DAE92 /* Pods-FlavorSafari.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD27290409C268A24E54CC3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B70868C9411CE353E55DA1 /* Pods_FlavorSafari.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 984ADF692A7A56870022638C /* Build configuration list for PBXNativeTarget "FlavorSafari" */;
 			buildPhases = (
+				BD5333A96719BD392BEC1ABC /* [CP] Check Pods Manifest.lock */,
 				984ADF512A7A56860022638C /* Sources */,
 				984ADF522A7A56860022638C /* Frameworks */,
 				984ADF532A7A56860022638C /* Resources */,
+				CC8EE44330802604D1B22FA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +211,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD5333A96719BD392BEC1ABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlavorSafari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8EE44330802604D1B22FA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavorSafari/Pods-FlavorSafari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlavorSafari/Pods-FlavorSafari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlavorSafari/Pods-FlavorSafari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		984ADF512A7A56860022638C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				984ADF5D2A7A56860022638C /* ViewController.swift in Sources */,
 				984ADF592A7A56860022638C /* AppDelegate.swift in Sources */,
 				984ADF5B2A7A56860022638C /* SceneDelegate.swift in Sources */,
+				984ADF782A7A5D890022638C /* OnboardingSlides.swift in Sources */,
+				984ADF7A2A7A61990022638C /* OnBoardingCollectionViewCell.swift in Sources */,
+				984ADF742A7A5C700022638C /* UIView+Extension.swift in Sources */,
+				984ADF7C2A7A97CD0022638C /* HomeViewController.swift in Sources */,
+				984ADF712A7A59A70022638C /* OnboardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		984ADF6A2A7A56870022638C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9829371CD4278616265834F1 /* Pods-FlavorSafari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +435,7 @@
 		};
 		984ADF6B2A7A56870022638C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64410803FA26896D236DAE92 /* Pods-FlavorSafari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

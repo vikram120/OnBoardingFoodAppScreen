@@ -23,20 +23,22 @@ class OnboardingViewController: UIViewController {
     var slides : [OnboardingSlide] = []
     
     var currentPage = 0 {
-        
-        didSet{
+        didSet {
+            if currentPage == slides.count {
+                currentPage = 0
+            } else if currentPage < 0 {
+                currentPage = slides.count - 1
+            }
+            
             pageCntrl.currentPage = currentPage
-
             
             if currentPage == slides.count - 1 {
                 nextBtn.setTitle("Get Started", for: .normal)
-            }else{
+            } else {
                 nextBtn.setTitle("Next", for: .normal)
             }
         }
-        
     }
-   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,24 +60,31 @@ class OnboardingViewController: UIViewController {
 
     @IBAction func nextBtnClicked(_ sender: UIButton) {
         
-        if currentPage == slides.count - 1 {
-            let controller = storyboard?.instantiateViewController(identifier: "homeNC") as! UINavigationController
-            controller.modalPresentationStyle = .fullScreen
-            controller.modalTransitionStyle = .flipHorizontal
-            present(controller, animated: true)
-            
-            
-            
-
-        } else {
-            currentPage += 1
-            let indexPath = IndexPath(item:currentPage, section: 0)
+        let targetPage = currentPage + 1
+        if targetPage >= 0 && targetPage < slides.count {
+            currentPage = targetPage
+            let indexPath = IndexPath(item: currentPage, section: 0)
             collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
-                                                                                 
+        }
+//        else if targetPage == slides.count {
+//                let storyboard = UIStoryboard(name: "Login", bundle: nil)
+//                let userPortalVC = storyboard.instantiateViewController(withIdentifier: "UserPortalVC") as! UserPortalVC
+//                self.navigationController?.pushViewController(userPortalVC, animated: true)
+//            }
+        
+        else if targetPage == slides.count {
+            let storyboard = UIStoryboard(name: "Login", bundle: nil)
+            let userPortalV = storyboard.instantiateViewController(withIdentifier: "DashBoardVC") as! DashBoardVC
+            self.navigationController?.pushViewController(userPortalV, animated: true)
         }
         
     }
-
+    
+    @IBAction func pageControlValueChanged(_ sender: UIPageControl) {
+        currentPage = sender.currentPage
+        let indexPath = IndexPath(item: currentPage, section: 0)
+        collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+    }
 }
 extension OnboardingViewController: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
     
@@ -95,11 +104,13 @@ extension OnboardingViewController: UICollectionViewDelegate,UICollectionViewDat
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        let width = scrollView.frame.width
-        currentPage = Int(scrollView.contentOffset.x / width)
-
+        let visibleRect = CGRect(origin: collectionView.contentOffset, size: collectionView.bounds.size)
+        let visiblePoint = CGPoint(x: visibleRect.midX, y: visibleRect.midY)
+        
+        if let indexPath = collectionView.indexPathForItem(at: visiblePoint) {
+            currentPage = indexPath.item
+        }
     }
-    
     
     
     

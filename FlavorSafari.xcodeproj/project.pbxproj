@@ -18,6 +18,19 @@
 		984ADF782A7A5D890022638C /* OnboardingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF772A7A5D890022638C /* OnboardingSlides.swift */; };
 		984ADF7A2A7A61990022638C /* OnBoardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF792A7A61990022638C /* OnBoardingCollectionViewCell.swift */; };
 		984ADF7C2A7A97CD0022638C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984ADF7B2A7A97CD0022638C /* HomeViewController.swift */; };
+		9866CE092AA8A0F4005FA5F9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9866CE082AA8A0F4005FA5F9 /* Login.storyboard */; };
+		9866CE472AA8A192005FA5F9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE342AA8A192005FA5F9 /* LoginVC.swift */; };
+		9866CE482AA8A192005FA5F9 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE352AA8A192005FA5F9 /* DesignableTextField.swift */; };
+		9866CE4A2AA8A192005FA5F9 /* UserPortalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE372AA8A192005FA5F9 /* UserPortalVC.swift */; };
+		9866CE4B2AA8A192005FA5F9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE382AA8A192005FA5F9 /* APIManager.swift */; };
+		9866CE4D2AA8A192005FA5F9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE3B2AA8A192005FA5F9 /* SignInVC.swift */; };
+		9866CE4F2AA8A192005FA5F9 /* CountriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE3D2AA8A192005FA5F9 /* CountriesList.swift */; };
+		9866CE502AA8A192005FA5F9 /* DashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE3E2AA8A192005FA5F9 /* DashBoardVC.swift */; };
+		9866CE532AA8A192005FA5F9 /* ForegtPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE412AA8A192005FA5F9 /* ForegtPasswordVC.swift */; };
+		9866CE6E2AA8A7BA005FA5F9 /* PristinaStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9866CE5B2AA8A7BA005FA5F9 /* PristinaStd.otf */; };
+		9866CE772AA8A7BA005FA5F9 /* Heimat Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9866CE652AA8A7BA005FA5F9 /* Heimat Sans Bold Italic.ttf */; };
+		9866CE7A2AA8A7BA005FA5F9 /* FTLTLT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9866CE682AA8A7BA005FA5F9 /* FTLTLT.TTF */; };
+		9866CE812AA8B5BA005FA5F9 /* FoodCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866CE802AA8B5BA005FA5F9 /* FoodCVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +48,19 @@
 		984ADF772A7A5D890022638C /* OnboardingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlides.swift; sourceTree = "<group>"; };
 		984ADF792A7A61990022638C /* OnBoardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		984ADF7B2A7A97CD0022638C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9866CE082AA8A0F4005FA5F9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9866CE342AA8A192005FA5F9 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9866CE352AA8A192005FA5F9 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		9866CE372AA8A192005FA5F9 /* UserPortalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPortalVC.swift; sourceTree = "<group>"; };
+		9866CE382AA8A192005FA5F9 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		9866CE3B2AA8A192005FA5F9 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		9866CE3D2AA8A192005FA5F9 /* CountriesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesList.swift; sourceTree = "<group>"; };
+		9866CE3E2AA8A192005FA5F9 /* DashBoardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardVC.swift; sourceTree = "<group>"; };
+		9866CE412AA8A192005FA5F9 /* ForegtPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForegtPasswordVC.swift; sourceTree = "<group>"; };
+		9866CE5B2AA8A7BA005FA5F9 /* PristinaStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PristinaStd.otf; sourceTree = "<group>"; };
+		9866CE652AA8A7BA005FA5F9 /* Heimat Sans Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heimat Sans Bold Italic.ttf"; sourceTree = "<group>"; };
+		9866CE682AA8A7BA005FA5F9 /* FTLTLT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FTLTLT.TTF; sourceTree = "<group>"; };
+		9866CE802AA8B5BA005FA5F9 /* FoodCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCVC.swift; sourceTree = "<group>"; };
 		A4B70868C9411CE353E55DA1 /* Pods_FlavorSafari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlavorSafari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,13 +97,15 @@
 		984ADF572A7A56860022638C /* FlavorSafari */ = {
 			isa = PBXGroup;
 			children = (
+				9866CE7F2AA8A7D3005FA5F9 /* Resources Fonts */,
+				9866CE562AA8A6B8005FA5F9 /* LoginScreen */,
+				9866CE572AA8A6D6005FA5F9 /* UserDefault */,
 				984ADF722A7A5C4D0022638C /* Extensions */,
-				984ADF6E2A7A59520022638C /* CustomViews */,
 				984ADF6D2A7A59400022638C /* Views */,
 				984ADF6C2A7A59380022638C /* Models */,
-				984ADF582A7A56860022638C /* AppDelegate.swift */,
-				984ADF5A2A7A56860022638C /* SceneDelegate.swift */,
+				9866CE582AA8A6FC005FA5F9 /* Delegates */,
 				984ADF5E2A7A56860022638C /* Main.storyboard */,
+				9866CE082AA8A0F4005FA5F9 /* Login.storyboard */,
 				984ADF612A7A56870022638C /* Assets.xcassets */,
 				984ADF632A7A56870022638C /* LaunchScreen.storyboard */,
 				984ADF662A7A56870022638C /* Info.plist */,
@@ -101,13 +129,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		984ADF6E2A7A59520022638C /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
 		984ADF6F2A7A59690022638C /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,8 +143,50 @@
 			isa = PBXGroup;
 			children = (
 				984ADF732A7A5C700022638C /* UIView+Extension.swift */,
+				9866CE352AA8A192005FA5F9 /* DesignableTextField.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9866CE562AA8A6B8005FA5F9 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9866CE342AA8A192005FA5F9 /* LoginVC.swift */,
+				9866CE372AA8A192005FA5F9 /* UserPortalVC.swift */,
+				9866CE3B2AA8A192005FA5F9 /* SignInVC.swift */,
+				9866CE3D2AA8A192005FA5F9 /* CountriesList.swift */,
+				9866CE412AA8A192005FA5F9 /* ForegtPasswordVC.swift */,
+				9866CE3E2AA8A192005FA5F9 /* DashBoardVC.swift */,
+				9866CE802AA8B5BA005FA5F9 /* FoodCVC.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		9866CE572AA8A6D6005FA5F9 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				9866CE382AA8A192005FA5F9 /* APIManager.swift */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		9866CE582AA8A6FC005FA5F9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				984ADF582A7A56860022638C /* AppDelegate.swift */,
+				984ADF5A2A7A56860022638C /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		9866CE7F2AA8A7D3005FA5F9 /* Resources Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9866CE652AA8A7BA005FA5F9 /* Heimat Sans Bold Italic.ttf */,
+				9866CE5B2AA8A7BA005FA5F9 /* PristinaStd.otf */,
+				9866CE682AA8A7BA005FA5F9 /* FTLTLT.TTF */,
+			);
+			path = "Resources Fonts";
 			sourceTree = "<group>";
 		};
 		98962FF9E9CBD0A0236B350C /* Pods */ = {
@@ -206,6 +269,10 @@
 				984ADF652A7A56870022638C /* LaunchScreen.storyboard in Resources */,
 				984ADF622A7A56870022638C /* Assets.xcassets in Resources */,
 				984ADF602A7A56860022638C /* Main.storyboard in Resources */,
+				9866CE772AA8A7BA005FA5F9 /* Heimat Sans Bold Italic.ttf in Resources */,
+				9866CE7A2AA8A7BA005FA5F9 /* FTLTLT.TTF in Resources */,
+				9866CE092AA8A0F4005FA5F9 /* Login.storyboard in Resources */,
+				9866CE6E2AA8A7BA005FA5F9 /* PristinaStd.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +325,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9866CE4B2AA8A192005FA5F9 /* APIManager.swift in Sources */,
 				984ADF592A7A56860022638C /* AppDelegate.swift in Sources */,
+				9866CE502AA8A192005FA5F9 /* DashBoardVC.swift in Sources */,
 				984ADF5B2A7A56860022638C /* SceneDelegate.swift in Sources */,
+				9866CE4A2AA8A192005FA5F9 /* UserPortalVC.swift in Sources */,
+				9866CE4D2AA8A192005FA5F9 /* SignInVC.swift in Sources */,
+				9866CE4F2AA8A192005FA5F9 /* CountriesList.swift in Sources */,
+				9866CE532AA8A192005FA5F9 /* ForegtPasswordVC.swift in Sources */,
 				984ADF782A7A5D890022638C /* OnboardingSlides.swift in Sources */,
 				984ADF7A2A7A61990022638C /* OnBoardingCollectionViewCell.swift in Sources */,
+				9866CE472AA8A192005FA5F9 /* LoginVC.swift in Sources */,
 				984ADF742A7A5C700022638C /* UIView+Extension.swift in Sources */,
+				9866CE812AA8B5BA005FA5F9 /* FoodCVC.swift in Sources */,
+				9866CE482AA8A192005FA5F9 /* DesignableTextField.swift in Sources */,
 				984ADF7C2A7A97CD0022638C /* HomeViewController.swift in Sources */,
 				984ADF712A7A59A70022638C /* OnboardingViewController.swift in Sources */,
 			);

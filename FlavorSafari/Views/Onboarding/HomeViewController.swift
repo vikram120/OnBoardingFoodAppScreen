@@ -15,10 +15,6 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func orderBtnClicked(_ sender : UIButton){
-        
-        print("Order button CLicked")
-    }
     
 
     /*

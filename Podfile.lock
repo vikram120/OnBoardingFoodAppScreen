@@ -1,16 +1,20 @@
 PODS:
+  - DropDown (2.3.13)
   - SAConfettiView (0.1.8)
 
 DEPENDENCIES:
+  - DropDown
   - SAConfettiView
 
 SPEC REPOS:
   trunk:
+    - DropDown
     - SAConfettiView
 
 SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
   SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
 
-PODFILE CHECKSUM: 700fc2d19f73c05c2659386739732a6ea4e007da
+PODFILE CHECKSUM: 3f7e8830a93bb1fff4a0ac525e8da93106e416de
 
 COCOAPODS: 1.12.0

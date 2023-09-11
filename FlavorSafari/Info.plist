@@ -21,5 +21,11 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>FTLTLT</string>
+		<string>PristinaStd</string>
+		<string>Heimat Sans Bold Italic</string>
+	</array>
 </dict>
 </plist>

@@ -7,4 +7,5 @@ target 'FlavorSafari' do
 
   # Pods for FlavorSafari
 pod 'SAConfettiView'
+pod 'DropDown'
 end

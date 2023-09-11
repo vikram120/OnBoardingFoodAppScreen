@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hde-fv-Igo">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kbD-rm-WIA">
-                                <rect key="frame" x="0.0" y="59" width="393" height="627"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="583"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="7iJ-g4-JZ5">
                                     <size key="itemSize" width="393" height="611"/>
@@ -28,7 +28,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnBoardingCollectionViewCell" id="yrT-ff-A5Y" customClass="OnBoardingCollectionViewCell" customModule="FlavorSafari" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="8" width="393" height="611"/>
+                                        <rect key="frame" x="0.0" y="-14" width="393" height="611"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EXs-WM-KVD">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="611"/>
@@ -110,6 +110,9 @@
                                 <rect key="frame" x="138.66666666666666" y="686" width="115.66666666666666" height="26"/>
                                 <color key="pageIndicatorTintColor" systemColor="systemGray5Color"/>
                                 <color key="currentPageIndicatorTintColor" red="0.8078432083" green="0.2823529541" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="pageControlValueChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bvo-Dt-uyu"/>
+                                </connections>
                             </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -125,6 +128,7 @@
                             <constraint firstItem="d5X-Rn-auy" firstAttribute="top" secondItem="4BM-tE-9kz" secondAttribute="bottom" constant="16" id="xYw-aU-pNG"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="HZF-Hd-vqq"/>
                     <connections>
                         <outlet property="collectionView" destination="kbD-rm-WIA" id="vh4-Wr-ZNv"/>
                         <outlet property="nextBtn" destination="d5X-Rn-auy" id="cWU-Zr-7eS"/>
@@ -133,104 +137,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
-        </scene>
-        <!--Home View Controller-->
-        <scene sceneID="NQq-yt-adW">
-            <objects>
-                <viewController id="vSW-8l-73v" customClass="HomeViewController" customModule="FlavorSafari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Fps-Mr-9q5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Slide4" translatesAutoresizingMaskIntoConstraints="NO" id="iHW-Q2-JlJ">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" red="0.84162414959999998" green="0.45218743750000001" blue="0.72219200179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="b0q-cY-SgV">
-                                <rect key="frame" x="28" y="425" width="337" height="122.66666666666663"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Flavor Safari !" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRe-rQ-U0g">
-                                        <rect key="frame" x="0.33333333333334281" y="0.0" width="336.66666666666663" height="33.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
-                                        <color key="textColor" red="0.0" green="0.87062081572960837" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mSR-8P-jkH">
-                                        <rect key="frame" x="93.666666666666686" y="72.666666666666686" width="150" height="50"/>
-                                        <color key="backgroundColor" red="0.36110763545749952" green="0.27902323919899608" blue="0.56999900450511853" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="ACs-7P-l8p"/>
-                                            <constraint firstAttribute="width" constant="150" id="iuk-DM-495"/>
-                                        </constraints>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Order Your Food"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="shadow">
-                                                <real key="value" value="0.0"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="orderBtnClicked:" destination="vSW-8l-73v" eventType="touchUpInside" id="nQx-6s-nKF"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed By VikramiOSDev" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swU-1t-bFG">
-                                <rect key="frame" x="74" y="776" width="262" height="20"/>
-                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                <color key="textColor" red="0.5" green="0.83210346640136057" blue="0.7410714285714286" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="PMH-mv-62r"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="b0q-cY-SgV" firstAttribute="top" secondItem="PMH-mv-62r" secondAttribute="top" constant="322" id="07s-TI-Ez6"/>
-                            <constraint firstItem="iHW-Q2-JlJ" firstAttribute="top" secondItem="Fps-Mr-9q5" secondAttribute="top" id="7JM-IG-VWl"/>
-                            <constraint firstItem="PMH-mv-62r" firstAttribute="trailing" secondItem="swU-1t-bFG" secondAttribute="trailing" constant="57" id="WJv-O1-Kil"/>
-                            <constraint firstItem="PMH-mv-62r" firstAttribute="bottom" secondItem="b0q-cY-SgV" secondAttribute="bottom" constant="270.32999999999998" id="azL-Xw-WFr"/>
-                            <constraint firstItem="swU-1t-bFG" firstAttribute="top" secondItem="iHW-Q2-JlJ" secondAttribute="bottom" constant="-76" id="eUG-c1-H41"/>
-                            <constraint firstAttribute="bottom" secondItem="iHW-Q2-JlJ" secondAttribute="bottom" id="ecc-gp-G5P"/>
-                            <constraint firstItem="iHW-Q2-JlJ" firstAttribute="trailing" secondItem="PMH-mv-62r" secondAttribute="trailing" id="gdz-yE-edC"/>
-                            <constraint firstItem="iHW-Q2-JlJ" firstAttribute="leading" secondItem="Fps-Mr-9q5" secondAttribute="leading" id="huL-VD-aDe"/>
-                            <constraint firstItem="PMH-mv-62r" firstAttribute="bottom" secondItem="swU-1t-bFG" secondAttribute="bottom" constant="22" id="i30-mN-FbL"/>
-                            <constraint firstItem="b0q-cY-SgV" firstAttribute="leading" secondItem="PMH-mv-62r" secondAttribute="leading" constant="28" id="tBc-CF-w9d"/>
-                            <constraint firstItem="PMH-mv-62r" firstAttribute="trailing" secondItem="b0q-cY-SgV" secondAttribute="trailing" constant="28" id="xF5-nk-ckD"/>
-                            <constraint firstItem="swU-1t-bFG" firstAttribute="leading" secondItem="PMH-mv-62r" secondAttribute="leading" constant="74" id="yNf-Qb-T8Q"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="mMd-Hs-OzJ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WN2-hO-PNK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1776.3358778625955" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="yUr-Vh-uI8">
+        <scene sceneID="vgd-qH-do1">
             <objects>
-                <navigationController storyboardIdentifier="homeNC" automaticallyAdjustsScrollViewInsets="NO" id="Nkz-pg-Umf" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hde-fv-Igo" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Bqx-3C-Cwh">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uln-59-xAK">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vSW-8l-73v" kind="relationship" relationship="rootViewController" id="bZ3-f1-y6o"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="afi-WB-Heu"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cYV-3x-Rih" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MCJ-Tg-sc1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="849.61832061068696" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Slide4" width="4000" height="5333"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
